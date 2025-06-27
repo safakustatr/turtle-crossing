@@ -8,7 +8,7 @@ POSITION = (-210, 260)
 class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
-        self.level = 0
+        self.level = 1
         self.refresh()
 
     def refresh(self):
